@@ -4,35 +4,7 @@
     <allowRecall>false</allowRecall>
     <allowedSubmitters>
         <type>owner</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>daniele.sperduti@sales.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>insightssecurity@00d09000007v5jwea0.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>integration@00d09000007v5jwea0.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>mazzola.renato92@cunning-otter-70ox28.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>mazzola.renato92@gmail.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>orietta.gigli@sales.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
-    <allowedSubmitters>
-        <submitter>pino.manager@sales.com</submitter>
-        <type>user</type>
-    </allowedSubmitters>
+    </allowedSubmitters>    
     <approvalPageFields>
         <field>Name</field>
         <field>Dipendente__c</field>
@@ -43,10 +15,8 @@
         <allowDelegate>false</allowDelegate>
         <assignedApprover>
             <approver>
-                <name>pino.manager@sales.com</name>
-                <type>user</type>
+                <type>userHierarchyField</type>
             </approver>
-            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
         </assignedApprover>
         <entryCriteria>
             <criteriaItems>

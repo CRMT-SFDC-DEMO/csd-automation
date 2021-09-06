@@ -19,12 +19,6 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>Approval_Process_Spesa_da_Autorizzare</members>
-        <members>Crea_Cartellino_Flow</members>
-        <members>Crea_Nota_Spese</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
         <members>Cartellino__c.CheckStartEndDate</members>
         <members>Spese__c.MaxCosto</members>
         <members>Spese__c.MinCosto</members>
@@ -41,5 +35,5 @@
         <members>Time_Management__c.noteupdate</members>
         <name>WorkflowFieldUpdate</name>
     </types>
-    <version>47.0</version>
+    <version>52.0</version>
 </Package>
