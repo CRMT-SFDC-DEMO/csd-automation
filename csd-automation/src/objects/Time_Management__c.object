@@ -16,4 +16,11 @@
         <errorDisplayField>Inizio_Trasferta__c</errorDisplayField>
         <errorMessage>Controlla le date di inizio e fine Trasferta</errorMessage>
     </validationRules>
+	<validationRules>
+        <fullName>SpeseMinCosto</fullName>
+        <active>true</active>
+        <errorConditionFormula>Costo__c &gt;= 10000 &amp;&amp;  RecordType.DeveloperName == &apos;Nota_Spese&apos;</errorConditionFormula>
+        <errorDisplayField>Costo__c</errorDisplayField>
+        <errorMessage>L&apos;importo di spesa è troppo alto - valore non amesso</errorMessage>
+    </validationRules>
 </CustomObject>

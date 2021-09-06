@@ -19,11 +19,8 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>Cartellino__c.CheckStartEndDate</members>
-        <members>Spese__c.MaxCosto</members>
-        <members>Spese__c.MinCosto</members>
-        <members>Time_Management__c.CheckInizioFineTrasferta</members>
-        <members>Trasferte__c.CheckDates</members>        
+		<members>Time_Management__c.SpeseMinCosto</members>
+        <members>Time_Management__c.CheckInizioFineTrasferta</members>        
         <name>ValidationRule</name>
     </types>
     <types>
