@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CostoDaApprovareTrigger</members>
+        <members>TimeManagementTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
         <members>Time_Management__c.Approva_Spesa</members>
         <name>ApprovalProcess</name>
-    </types>    
+    </types>
+    <types>
+      <members>Gestione_Nota_Spese.Costo_da_approvare</members>
+      <name>CustomMetadata</name>
+    </types>	
     <types>
         <members>Approval_Process</members>
         <name>CustomNotificationType</name>
