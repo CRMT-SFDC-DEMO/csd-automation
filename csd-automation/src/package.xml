@@ -22,6 +22,11 @@
         <members>Crea_Nota_Spese</members>
         <name>Flow</name>
     </types>
+	<types>
+        <members>Gruppo_Vendita</members>
+        <members>Manager</members>
+        <name>PermissionSet</name>
+    </types>
     <types>
 		<members>Time_Management__c.SpeseMinCosto</members>
         <members>Time_Management__c.CheckInizioFineTrasferta</members>        
